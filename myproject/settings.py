@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'blog',
-    'crud_app'
+    'crud_app',
+    'horse_tours',  # <--- Проверьте наличие этой строки!
 ]
 
 MIDDLEWARE = [
